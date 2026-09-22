@@ -1,0 +1,43 @@
+# ===== Virtual environments =====
+bert_gp_venv/
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== 预训练权重 / 训练产物（大文件，按需下载或训练生成，不入库）=====
+init_ckpt/*.bin
+init_ckpt/*.pt
+init_ckpt/*.h5
+checkpoint/
+summary/
+logs/
+*.pth
+*.onnx
+*.pt
+
+# ===== 数据（下载/脚本生成，不入库；用 data_utils/process_ner_data.py 重新生成）=====
+data/raw_data/
+data/ner_data/
+
+# ===== OS / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 其它 =====
+nohup.out
+*.log

@@ -1,0 +1,8 @@
+# GlobalPointer-Distill-NER 运行依赖
+# 测试环境：Python 3.14 / macOS arm64；其它平台请按需调整 torch 版本
+torch==2.14.0
+numpy==2.5.3
+tensorboardX==2.6.5
+tqdm==4.70.1
+onnxruntime==1.30.0
+onnxscript==0.7.2
